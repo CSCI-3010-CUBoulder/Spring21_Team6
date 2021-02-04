@@ -1,5 +1,10 @@
 /* String functions section */
 
+int newFunction(){
+  //defines a new functions
+  std :: cout << "Hello" << std::endl;
+}
+
 // Splits a single string on separator into a vector of strings
 std::vector<std::string> Split(std::string whole, std::string separator);
 
