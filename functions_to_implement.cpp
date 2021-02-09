@@ -1,3 +1,6 @@
+#include <iostream>
+#include <vector>
+#include <string>
 /* String functions section */
 
 int newFunction(){
@@ -63,7 +66,7 @@ int Factorial(int n){
 
 // returns -1 if the number is negative and 1 if positive
 int Sign(int num){
-  if (n>=0) return 1; else return -1;
+  if (num>=0) return 1; else return -1;
 }
 
 // takes two vectors of doubles, a and b. The function then removes elements from a if they are also in b.
@@ -100,10 +103,6 @@ std::vector<double> VectorTimesN(std::vector<double> v, double n);
 // takes in two doubles and returns a vector of size n with
 // values n*1, n*2, n*3... up to n*m
 std::vector<double> Multiples(double n, double m);
-
-// returns -1 if the number is negative and 1 if positive
-double Sign(double num);
-
 
 // adds n to each element of the vector
 std::vector<int> AddN(std::vector<int>, int n);
