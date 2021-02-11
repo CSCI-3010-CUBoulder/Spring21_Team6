@@ -1,7 +1,2 @@
-  
-language: cpp
-#before_script: cd utility_functions
 
-script:
-  - ./test.cpp
 
