@@ -1,6 +1,9 @@
 /* String functions section */
+#include <iostream>
+#include <string>
+#include <vector>
 
-int newFunction(){
+void newFunction(){
   //defines a new functions
   std :: cout << "Hello" << std::endl;
 }
@@ -58,10 +61,7 @@ int NthFibonacci(int n);
 
 // takes an int, n, and returns the factorial of that int (n!)
 int Factorial(int n) {
-    int factorial = 0;
-
-    for(int i = 1; i <= n; ++i)
-        factorial *= i;  
+    return n <= 1 ? n : Factorial(n-1)*n;
 }
 
 // returns -1 if the number is negative and 1 if positive
